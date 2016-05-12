@@ -1,7 +1,8 @@
 /**
- * Created by mshat on 10.05.2016.
+ * Created by shatikhin on 12.05.2016.
  */
 //Михаил Шатихин
+//Тормозилка
 'use strict';
 
 function throttle(f, ms) {
