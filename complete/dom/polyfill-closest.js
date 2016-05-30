@@ -6,14 +6,14 @@
 
 if (Element.prototype.closest === undefined) {
 
-    Element.prototype.closest = function (css) {
+    Element.prototype.closest = function(css) {
         var parent = this.parentNode;
-        do {
+        while(parent) {
             if (parent.matches(css))
                 return parent;
 
             parent = parent.parentNode;
-        } while (parent);
+        }
 
         return null;
     };
