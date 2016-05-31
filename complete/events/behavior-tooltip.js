@@ -12,7 +12,6 @@ tooltip.className = "my-tooltip hidden";
 
 document.body.appendChild(tooltip);
 
-
 function onMouseOver(event) {
     if (!event.target.hasAttribute("data-tooltip"))
         return;
