@@ -1,7 +1,6 @@
-/**
- * Created by shatikhin on 31.05.2016.
- */
+
 //http://plnkr.co/edit/X7rc1jRPyTDuP7uTweFp?p=preview
+
 
 //Михаил Шатихин
 'use strict';
